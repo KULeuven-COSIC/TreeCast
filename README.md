@@ -199,4 +199,4 @@ Full version of the paper can be found [here](https://cosicdatabase.esat.kuleuve
 
 ## Acknowledgments
 
-This work was supported in part by CyberSecurity Research Flanders with reference number VR20192203, and by the European Union’s Horizon Research and Innovation program under grant agreement No.\ 101119747 (TELEMETRY).
+This work was supported by the Flemish Government through the Cybersecurity Research Program, grant number VOEWICS02, and by the European Union’s Horizon Research and Innovation program under grant agreement No. 101119747 (TELEMETRY).
