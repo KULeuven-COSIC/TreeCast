@@ -1,0 +1,7 @@
+default: TreeCast_demo
+build_dir: /Users/sayon/Documents/codes/TreeCast_demo/build
+domains:
+  - name: TreeCast_demo
+    build_dir: /Users/sayon/Documents/codes/TreeCast_demo/build/TreeCast_demo
+flash_order:
+  - TreeCast_demo

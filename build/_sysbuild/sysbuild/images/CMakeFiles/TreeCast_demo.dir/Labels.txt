@@ -1,0 +1,13 @@
+# Target labels
+ TreeCast_demo
+# Source files and their labels
+/Users/sayon/Documents/codes/TreeCast_demo/build/_sysbuild/sysbuild/images/CMakeFiles/TreeCast_demo
+/Users/sayon/Documents/codes/TreeCast_demo/build/_sysbuild/sysbuild/images/CMakeFiles/TreeCast_demo.rule
+/Users/sayon/Documents/codes/TreeCast_demo/build/_sysbuild/sysbuild/images/CMakeFiles/TreeCast_demo-complete.rule
+/Users/sayon/Documents/codes/TreeCast_demo/build/_sysbuild/sysbuild/images/TreeCast_demo-prefix/src/TreeCast_demo-stamp/TreeCast_demo-build.rule
+/Users/sayon/Documents/codes/TreeCast_demo/build/_sysbuild/sysbuild/images/TreeCast_demo-prefix/src/TreeCast_demo-stamp/TreeCast_demo-configure.rule
+/Users/sayon/Documents/codes/TreeCast_demo/build/_sysbuild/sysbuild/images/TreeCast_demo-prefix/src/TreeCast_demo-stamp/TreeCast_demo-download.rule
+/Users/sayon/Documents/codes/TreeCast_demo/build/_sysbuild/sysbuild/images/TreeCast_demo-prefix/src/TreeCast_demo-stamp/TreeCast_demo-install.rule
+/Users/sayon/Documents/codes/TreeCast_demo/build/_sysbuild/sysbuild/images/TreeCast_demo-prefix/src/TreeCast_demo-stamp/TreeCast_demo-mkdir.rule
+/Users/sayon/Documents/codes/TreeCast_demo/build/_sysbuild/sysbuild/images/TreeCast_demo-prefix/src/TreeCast_demo-stamp/TreeCast_demo-patch.rule
+/Users/sayon/Documents/codes/TreeCast_demo/build/_sysbuild/sysbuild/images/TreeCast_demo-prefix/src/TreeCast_demo-stamp/TreeCast_demo-update.rule

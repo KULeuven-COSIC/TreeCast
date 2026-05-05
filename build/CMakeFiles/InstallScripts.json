@@ -1,0 +1,14 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/sayon/Documents/codes/TreeCast_demo/build/cmake_install.cmake",
+		"/Users/sayon/Documents/codes/TreeCast_demo/build/_sysbuild/cmake_install.cmake",
+		"/Users/sayon/Documents/codes/TreeCast_demo/build/_sysbuild/sysbuild/images/cmake_install.cmake",
+		"/Users/sayon/Documents/codes/TreeCast_demo/build/_sysbuild/sysbuild/images/bootloader/cmake_install.cmake",
+		"/Users/sayon/Documents/codes/TreeCast_demo/build/modules/nrf/cmake_install.cmake",
+		"/Users/sayon/Documents/codes/TreeCast_demo/build/modules/mcuboot/cmake_install.cmake",
+		"/Users/sayon/Documents/codes/TreeCast_demo/build/_sysbuild/sysbuild/images/boards/cmake_install.cmake",
+		"/Users/sayon/Documents/codes/TreeCast_demo/build/_sysbuild/sysbuild/images/soc/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/sayon/Documents/codes/TreeCast_demo/build/_sysbuild/sysbuild/images/CMakeFiles/TreeCast_demo"
+		},
+		{
+			"file" : "/Users/sayon/Documents/codes/TreeCast_demo/build/_sysbuild/sysbuild/images/CMakeFiles/TreeCast_demo.rule"
+		},
+		{
+			"file" : "/Users/sayon/Documents/codes/TreeCast_demo/build/_sysbuild/sysbuild/images/CMakeFiles/TreeCast_demo-complete.rule"
+		},
+		{
+			"file" : "/Users/sayon/Documents/codes/TreeCast_demo/build/_sysbuild/sysbuild/images/TreeCast_demo-prefix/src/TreeCast_demo-stamp/TreeCast_demo-build.rule"
+		},
+		{
+			"file" : "/Users/sayon/Documents/codes/TreeCast_demo/build/_sysbuild/sysbuild/images/TreeCast_demo-prefix/src/TreeCast_demo-stamp/TreeCast_demo-configure.rule"
+		},
+		{
+			"file" : "/Users/sayon/Documents/codes/TreeCast_demo/build/_sysbuild/sysbuild/images/TreeCast_demo-prefix/src/TreeCast_demo-stamp/TreeCast_demo-download.rule"
+		},
+		{
+			"file" : "/Users/sayon/Documents/codes/TreeCast_demo/build/_sysbuild/sysbuild/images/TreeCast_demo-prefix/src/TreeCast_demo-stamp/TreeCast_demo-install.rule"
+		},
+		{
+			"file" : "/Users/sayon/Documents/codes/TreeCast_demo/build/_sysbuild/sysbuild/images/TreeCast_demo-prefix/src/TreeCast_demo-stamp/TreeCast_demo-mkdir.rule"
+		},
+		{
+			"file" : "/Users/sayon/Documents/codes/TreeCast_demo/build/_sysbuild/sysbuild/images/TreeCast_demo-prefix/src/TreeCast_demo-stamp/TreeCast_demo-patch.rule"
+		},
+		{
+			"file" : "/Users/sayon/Documents/codes/TreeCast_demo/build/_sysbuild/sysbuild/images/TreeCast_demo-prefix/src/TreeCast_demo-stamp/TreeCast_demo-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"TreeCast_demo"
+		],
+		"name" : "TreeCast_demo"
+	}
+}
