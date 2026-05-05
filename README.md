@@ -1,8 +1,8 @@
 # TreeCast: Multi-Party Key Establishment Protocol for IoT Devices
 
-> **Abstract:** TODO.
+> **Abstract:** Secure communication in the Internet of Things (IoT) requires lightweight protocols that scale across unicast, multicast, and broadcast settings. Existing solutions typically depend on centralized gateways, which introduce single points of failure and scalability limitations. We propose \textit{TreeCast}, a distributed group key establishment protocol that organizes devices into a binary tree of hashed Diffie–Hellman secrets, which naturally unifies unicast, multicast, and broadcast in a single scalable hierarchical structure. This design yields logarithmic rekey costs, efficient subtree derivation with efficient device addition and revocation in large and dynamic IoT environment and strong security properties including authentication, partial forward secrecy, and post-compromise recovery. We present a detailed security analysis and to demonstrate practical viability, implement TreeCast on an Arm Cortex-M33 using only software cryptography, without any hardware accelerators. Our measurements show that TreeCast performs key establishment and rekeying within realistic IoT timing and energy budgets, achieving sub-millisecond tree updates and low memory footprint. These results establish TreeCast as a lightweight, scalable, and deployable solution for secure communication in next-generation IoT networks.
 
-This repository contains artefacts and proof-of-concept code of our paper `TreeCast`, for anonymous review submitted at `ACISP 2026`, Cycle 1, submission number `#xxxxxx`.
+This repository contains artefacts and proof-of-concept code of our paper `TreeCast`, which will appear at ICICS 2026.
 
 The code is provided to reviewers for **full reproducibility** and **independent verification** of our implementation claims. It targets the **nRF5340 DK (Arm Cortex-M33)** running the **nRF Connect SDK (NCS)** and measures protocol costs using **pure software cryptography** (no hardware accelerators).
 
@@ -40,7 +40,7 @@ west build -b nrf5340dk/nrf5340/cpuapp --pristine
 west flash
 ```
 
-You should also have the `zephyr-env` script set up (for example via source `~/ncs/v3.0.0/zephyr/zephyr-env.sh` or the equivalent `path` on your system). If you see any `nrfjprog` or `nrftool` errors, please ensure that the Nordic command line tools are installed and the board is listed by `nrfjprog --ids`. If you have a different Nordic board, replace the build line with your board name and version.
+You should also have the `zephyr-env` script set up (for example, via source `~/ncs/v3.0.0/zephyr/zephyr-env.sh` or the equivalent `path` on your system). If you see any `nrfjprog` or `nrftool` errors, please ensure that the Nordic command line tools are installed and the board is listed by `nrfjprog --ids`. If you have a different Nordic board, replace the build line with your board name and version.
 
 To view the results, open a serial terminal to view the benchmark output. You can use any terminal emulator (PuTTY, minicom) or the built-in `west` command:
 
@@ -167,7 +167,7 @@ Hash_Cost (from [HASH]): 3 timer cycles per hash
 == COMPLETE ==
 ```
 
-## Directory Strcuture
+## Directory Structure
 
 ```bash
 .
@@ -183,3 +183,20 @@ Hash_Cost (from [HASH]): 3 timer cycles per hash
     ├── treecast.c                   # Core TreeCast protocol logic
     └── treecast.h                   # Protocol API definitions
 ```
+
+## Citation
+
+Full version of the paper can be found [here](https://cosicdatabase.esat.kuleuven.be/backend/publications/files/conferencepaper/). If you find this work useful, please consider citing the paper:
+
+```bibtex
+@inproceedings{TreeCast,
+  title     = {{TreeCast: Multi-Party Key Establishment Protocol for IoT Devices}},
+  author    = {Banerjee, Supriyo and Duttagupta, Sayon},
+  booktitle = {Information and Communications Security (ICICS)},
+  year      = {2026},
+}
+```
+
+## Acknowledgments
+
+This work was supported in part by CyberSecurity Research Flanders with reference number VR20192203, and by the European Union’s Horizon Research and Innovation program under grant agreement No.\ 101119747 (TELEMETRY).
